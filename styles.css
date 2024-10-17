@@ -65,3 +65,40 @@ body {
     padding: 12px 32px;
     border-radius: 12px;
 }
+
+.text-boxes {
+    background-color: #f9faf8;
+    padding: 32px 144px 64px;
+}
+
+.text-boxes > h2 {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.box > i {
+    font-size: 64px;
+}
+
+.box > p {
+    width: 192px;
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
