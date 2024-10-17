@@ -13,12 +13,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
+.navbar, .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
-    padding: 16px;
+    padding: 16px 256px;
 }
 
 .links > ul {
@@ -33,4 +33,35 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 500;
+}
+
+.header {
+    gap: 32px;
+    padding: 96px 256px;
+}
+
+.header-image > img {
+    max-width: 400px;
+    height: auto;
+}
+
+.header-block > h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.header-block > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.header-block > button {
+    all: unset; /* remove default button style */
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 12px 32px;
+    border-radius: 12px;
 }
